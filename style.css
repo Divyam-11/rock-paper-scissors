@@ -1,0 +1,136 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+body{
+  background-color: #00BFB2;
+}
+h1{
+    text-align: center;
+    font-family: Roboto,sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newgame{
+    margin: 2rem 0rem;
+}
+.option-container{
+display: flex;
+
+}
+.option-container button {
+  margin: 0px 0.8rem;
+  border-radius: 10rem;
+  border: 0.3rem solid #DC0073;
+  background-color: #D0C4DF;
+  cursor: pointer;
+}
+button img{
+  width: 7rem;
+  padding: 1rem;
+}
+.option-container button:active{
+background-color: #b5aac2;
+transform: scale(0.9);
+}
+.newgame{
+  
+  border: none;
+  background-color: #89FC00;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  padding: 0.4rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+}
+.newgame:active{
+  background-color: #89FC00;
+  transform: scale(0.9);
+}
+.score{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.score div{
+
+  margin : 0.5rem 1rem;
+  font-size:2rem;
+}
+.score div div{
+  margin: 0;
+  text-align: center;
+  font-family: Roboto , sans-serif;
+}
